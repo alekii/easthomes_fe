@@ -16,7 +16,7 @@ function Slider(props) {
       setCurrentImageIndex(
         currentImageIndex === length - 1 ? 0 : currentImageIndex + 1
       );
-    }, 5000);
+    }, 15000);
     return () => clearInterval(interval);
   }, [currentImageIndex]);
 
