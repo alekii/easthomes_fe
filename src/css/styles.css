@@ -1,0 +1,9 @@
+.searchterms { 
+display:flex;
+flex-direction:column;
+width:17%;
+}
+
+.content {
+    padding-top:175px
+}
