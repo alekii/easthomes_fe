@@ -30,9 +30,8 @@ const SearchResults =() =>{
    if(!IsDataReady){
     return (
       <h4 style={{marginTop:"40vh",paddingBottom:"80vh",textAlign:"center"}}>Loading...</h4>
-      )
-   }if(!dataPresent){
-     console.log(data.data.count===0)
+      ) 
+   }if(!dataPresent){  
     return (
       <h4 style={{marginTop:"40vh",paddingBottom:"80vh",textAlign:"center"}}>No Results Found</h4>
       )
